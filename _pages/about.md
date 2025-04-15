@@ -21,7 +21,7 @@ My primary research interests are language modeling and dialogue agents. More sp
 - **Dialogue Agents**: My focus has been on task-oriented dialogues (structured information extraction), encompassing task-oriented prompting ([SDP-DST (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.404/), few-shot learning with LLM [IC-DST (EMNLP 2022)](https://aclanthology.org/2022.findings-emnlp.193/), and data synthesis from LLM-human interaction ([DialGen](https://arxiv.org/abs/2307.07047)).
 
 
-I served on organizing committees of [Multilingual Information Access Workshop](https://mia-workshop.github.io/) and program committees of [Structured and Unstructured Knowledge Integration Workshop](https://suki-workshop.github.io/organization). I review for EMNLP, ACL, NAACL, COLING, and ARR. 
+I served as area chair for [ACL ARR](https://aclrollingreview.org/). I also serve on organizing committees of [Multilingual Information Access Workshop](https://mia-workshop.github.io/). I review for NeurIPS, ICLR, ACL, EMNLP, NAACL. 
 
 Here is my <a href="files/CV_01192025.pdf" target="_blank">CV</a> 
 
