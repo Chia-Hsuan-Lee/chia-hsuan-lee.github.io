@@ -11,32 +11,28 @@ redirect_from:
 
 
 Hi! Nice to meet you! 
-I am **Chia-Hsuan (Michael) Lee**, currently an applied researcher at Capital One AI Foundations team working on post-training for language models.
+I am **Chia-Hsuan (Michael) Lee**, currently an applied researcher at Capital One AI Foundations team working on post-training for language models. I RL post-trained our first internal foundation model and actively publish research.
 I obtained my PhD from the University of Washington where I was advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) in the [Natural Language Processing Group](https://nlp.washington.edu/). I also worked with [Prof. Noah A. Smith](https://nasmith.github.io/). 
 
 I was a research intern at Google Brain (2022), co-hosted by [Ankur Bapna](https://scholar.google.com/citations?user=6xaz-r0AAAAJ&hl=en) and [Yu Zhang](https://scholar.google.com/citations?user=EilVnKwAAAAJ&hl=en); interned at Google Research (2021), hosted by [Melvin Johnson](https://scholar.google.com/citations?user=g4oMRgsAAAAJ&hl=en); interned at Microsoft Research NLP group (2020), co-hosted by [Matthew Richardson](https://scholar.google.com/citations?user=IT-vb_kAAAAJ&hl=en) and [Alex Polozov](https://alexpolozov.com/).
 
-My primary research interests are language modeling and dialogue agents. More specifically: 
+My research foucs on **reinforcement learning post-training for large language models** — improving how models reason and act, not just the answers they produce. My work spans:
 
-- **Language Modeling**:
-- I build the first in-house Reasoning LM for Capital One with reasoning preference optimization (RPO).
-- I also lead the direction preference optimization (DPO) workstream for in-house instruction-tuned LMs, inlcuding data collection/synthesis, model training and evaluation.
-- I propose a framework that integrates teacher-generated explanatory critiques and refined responses into the SFT process ([CGD](https://arxiv.org/abs/2505.11628).
-- I explore new pretraining strategies for long-context language models ([DOCmT5 (NAACL 2022)](https://aclanthology.org/2022.findings-naacl.32/). I study new in-context learning method [IC-DST (EMNLP 2022)](https://aclanthology.org/2022.findings-emnlp.193/) and prompt-tuning method ([SDP-DST (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.404/) for language models. I propose a routing framework to dynamically orchestrate multiple language models during inference ([OrchestraLLM (NAACL 2024)](https://aclanthology.org/2024.naacl-long.79/)). I propose a correction framework that enables SLMs to self-correct using in-context exemplars without LLM involvement ([CorrectionLM](https://arxiv.org/abs/2410.18209)). 
-- **Dialogue Agents**: My focus has been on task-oriented dialogues (structured information extraction), encompassing task-oriented prompting ([SDP-DST (EMNLP 2021)](https://aclanthology.org/2021.emnlp-main.404/), few-shot learning with LLM [IC-DST (EMNLP 2022)](https://aclanthology.org/2022.findings-emnlp.193/), and data synthesis from LLM-human interaction ([DialGen](https://arxiv.org/abs/2307.07047)).
+- **Fine-Grained Rewards for GRPO**: I develop reinforcement learning methods (GRPO / OPD) that improve reasoning capability, including a drift-aware training method that leverages segment-level rewards to raise accuracy while reducing overthinking [DASH](https://arxiv.org/abs/2607.00482). I also proposed [CGD (ICML)](https://arxiv.org/abs/2505.11628), a framework that integrates teacher-generated explanatory critiques and refined responses into SFT.
+- **Competence-Aware On-Policy Distillation**: I propose [SEAD](https://arxiv.org/abs/2606.28562) , a new on-policy distillation (OPD) framework that leverages both student and teacher entropy to achieve more effective and efficient OPD.
+- **Preference Optimization / Alignment**: I lead the DPO workstream for in-house instruction-tuned LMs — spanning data collection/synthesis, training, and evaluation. I also study data-efficient preference learning [scaling law](https://arxiv.org/abs/2604.08723), showing that a small, carefully selected set of high-quality preference pairs can match datasets several times larger
+
+**Earlier work** explored complementary directions in language modeling: long-context pretraining ([DOCmT5, NAACL 2022](https://aclanthology.org/2022.findings-naacl.32/)), in-context learning ([IC-DST, EMNLP 2022](https://aclanthology.org/2022.findings-emnlp.193/)) and prompt-tuning ([SDP-DST, EMNLP 2021](https://aclanthology.org/2021.emnlp-main.404/)), inference-time routing across models ([OrchestraLLM, NAACL 2024](https://aclanthology.org/2024.naacl-long.79/)), and LLM-free self-correction for small models ([CorrectionLM](https://arxiv.org/abs/2410.18209)).
 
 
-I served as an area chair for [ACL ARR](https://aclrollingreview.org/). I also serve on organizing committees of [Multilingual Information Access Workshop](https://mia-workshop.github.io/). I review for NeurIPS, ICLR, ACL, EMNLP, NAACL. 
+Here is my <a href="files/CV_0703.pdf" target="_blank">CV</a> 
 
-Here is my <a href="files/CV_01192025.pdf" target="_blank">CV</a> 
-
-You can find me at: chiahsuan.li [at] gmail [dot] com
+You can find me at: chiahsuan.li [at] gmail [dot] com 
 
 ## Highlights
-- 05/2025: Our paper on Reasoning LM critique-guided distillation ([CGD](https://arxiv.org/abs/2505.11628)) is out on arxiv.
-- 10/2024: Our paper on SLM self-correction ([CorrectionLM](https://arxiv.org/abs/2410.18209)) is out on arxiv.
+- 07/2026: Our paper on reducing overthinking with fine-grained structure-aware rewards ([DASH](https://arxiv.org/abs/2607.00482)) is out on arxiv.
+- 06/2026: Our paper on efficient on policy distillation via joint entropy ([SEAD](https://arxiv.org/abs/2606.28562)) is out on arxiv.
+- 04/2026: Our paper on scaling laws of reasoning preference optimization ([Decomposing the Delta](https://arxiv.org/abs/2604.08723)) is out on arxiv.
+- 04/2026: Our paper on Reasoning LM critique-guided distillation ([CGD](https://arxiv.org/abs/2505.11628)) is accepted to ICML 2026.
 - 09/2024: I have joined Capital One as an applied researcher.
-- 08/2024: I have passed my defense and officially a PhD! 
-- 03/2024: ["OrchestraLLM"](https://aclanthology.org/2024.naacl-long.79/) is accepted to NAACL 2024 main conference.
-- 10/2022: Our paper on in-context learning for task-oriented dialogue ["IC-DST"](https://arxiv.org/abs/2203.08568) is accepted to EMNLP2022 Findings! ["Twitter"](https://mobile.twitter.com/huyushi98/status/1529208385865797632)
-- 04/2022: Our paper on pretraining multilingual long-context language models ["DOCmT5"](https://aclanthology.org/2022.findings-naacl.32/) is accepted to NAACL2022 Findings! ["Twitter"](https://twitter.com/ChiahsuanL/status/1512582119440064512)
+- 08/2024: I have passed my defense and officially a PhD!
