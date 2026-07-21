@@ -11,7 +11,7 @@ redirect_from:
 
 
 Hi! Nice to meet you! 
-I am **Chia-Hsuan (Michael) Lee**, currently an applied researcher at Capital One AI Foundations team working on post-training for language models. I RL post-trained our first internal foundation model and actively publish research.
+I am **Chia-Hsuan (Michael) Lee**, currently a senior applied researcher at Capital One AI Foundations team working on post-training for language models. I RL post-trained our first internal foundation model and actively publish research.
 I obtained my PhD from the University of Washington where I was advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) in the [Natural Language Processing Group](https://nlp.washington.edu/). I also worked with [Prof. Noah A. Smith](https://nasmith.github.io/). 
 
 I was a research intern at Google Brain (2022), co-hosted by [Ankur Bapna](https://scholar.google.com/citations?user=6xaz-r0AAAAJ&hl=en) and [Yu Zhang](https://scholar.google.com/citations?user=EilVnKwAAAAJ&hl=en); interned at Google Research (2021), hosted by [Melvin Johnson](https://scholar.google.com/citations?user=g4oMRgsAAAAJ&hl=en); interned at Microsoft Research NLP group (2020), co-hosted by [Matthew Richardson](https://scholar.google.com/citations?user=IT-vb_kAAAAJ&hl=en) and [Alex Polozov](https://alexpolozov.com/).
